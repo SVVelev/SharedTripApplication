@@ -1,0 +1,9 @@
+C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services\bin\Debug\netstandard2.1\ShareTripApplication.Services.deps.json
+C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services\bin\Debug\netstandard2.1\ShareTripApplication.Services.dll
+C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services\obj\Debug\netstandard2.1\ShareTripApplication.Services.csprojAssemblyReference.cache
+C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services\obj\Debug\netstandard2.1\ShareTripApplication.Services.AssemblyInfoInputs.cache
+C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services\obj\Debug\netstandard2.1\ShareTripApplication.Services.AssemblyInfo.cs
+C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services\bin\Debug\netstandard2.1\ShareTripApplication.Services.pdb
+C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services\obj\Debug\netstandard2.1\ShareTripApplication.Services.csproj.CoreCompileInputs.cache
+C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services\obj\Debug\netstandard2.1\ShareTripApplication.Services.dll
+C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services\obj\Debug\netstandard2.1\ShareTripApplication.Services.pdb

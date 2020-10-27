@@ -1,0 +1,43 @@
+﻿@using ShareTripApplication.Web.ViewModels.Trips.AllTrips
+@model AllTripsViewModel
+@{
+
+    ViewData["Title"] = "All Trips";
+
+}
+
+<section class="py-5">
+        <div class="text-center">
+            <h1 style="margin: 2%; text-align: center;">All Trips</h1>
+            <div style="padding: 5%;">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">StartPoint</th>
+                            <th scope="col">EndPoint</th>
+                            <th scope="col">DepartureTime</th>
+                            <th scope="col">Seats</th>
+                            <th scope="col">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Trips)
+                        {
+                            <tr>
+                                <th scope="row">@item.StartPoint</th>
+                                <td>@item.EndPoint</td>
+                                <td>@item.DepartureTime</td>
+                                <td>@item.Seats</td>
+                                <td>
+                                    <div class="button-holder">
+                                        <a asp-controller="Trip" asp-action="Details" asp-route-id="@item.Id">Info</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</section>

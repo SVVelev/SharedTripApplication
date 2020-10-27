@@ -1,0 +1,894 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Tests\\Sandbox\\Sandbox.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj",
+        "projectName": "ShareTripApplication.Data.Common",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj",
+        "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sveto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj",
+        "projectName": "ShareTripApplication.Data.Models",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sveto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data\\ShareTripApplication.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data\\ShareTripApplication.Data.csproj",
+        "projectName": "ShareTripApplication.Data",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data\\ShareTripApplication.Data.csproj",
+        "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sveto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Data\\ShareTripApplication.Services.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Data\\ShareTripApplication.Services.Data.csproj",
+        "projectName": "ShareTripApplication.Services.Data",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Data\\ShareTripApplication.Services.Data.csproj",
+        "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sveto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\ShareTripApplication.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\ShareTripApplication.Web.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj",
+        "projectName": "ShareTripApplication.Services.Mapping",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj",
+        "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sveto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj",
+        "projectName": "ShareTripApplication.Services.Messaging",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj",
+        "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sveto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Sendgrid": {
+              "target": "Package",
+              "version": "[9.21.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services\\ShareTripApplication.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services\\ShareTripApplication.Services.csproj",
+        "projectName": "ShareTripApplication.Services",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services\\ShareTripApplication.Services.csproj",
+        "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sveto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj",
+        "projectName": "ShareTripApplication.Common",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj",
+        "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sveto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Tests\\Sandbox\\Sandbox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Tests\\Sandbox\\Sandbox.csproj",
+        "projectName": "Sandbox",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Tests\\Sandbox\\Sandbox.csproj",
+        "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Tests\\Sandbox\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sveto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data\\ShareTripApplication.Data.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data\\ShareTripApplication.Data.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Data\\ShareTripApplication.Services.Data.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Data\\ShareTripApplication.Services.Data.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services\\ShareTripApplication.Services.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services\\ShareTripApplication.Services.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\ShareTripApplication.Web.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\ShareTripApplication.Web.ViewModels.csproj",
+        "projectName": "ShareTripApplication.Web.ViewModels",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\ShareTripApplication.Web.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sveto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj"
+              },
+              "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj": {
+                "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.205, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+﻿@using ShareTripApplication.Web.ViewModels.Trips.Details
+@model TripDetailsViewModel
+@{
+
+    ViewData["Title"] = "Details";
+
+}
+<section class="py-5">
+    <div class="class="text-center"">
+        <h1 style="margin: 2%; text-align: center;">Trip</h1>
+        <div>
+            <div class="form-group text-center">
+                <img src="@Model.ImagePath" class="img-fluid">
+            </div>
+            <div class="form-group">
+                <label asp-for="StartPoint"></label>
+                <input asp-for="StartPoint" readonly class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="EndPoint"></label>
+                <input asp-for="EndPoint" readonly class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="DepartureTime"></label>
+                <input asp-for="DepartureTime" readonly class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Seats"></label>
+                <input asp-for="Seats" readonly class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <input asp-for="Description" readonly class="form-control" />
+            </div>
+            <div class="form-group text-center">
+                <div class="button-holder">
+                    <a asp-controller="Trip" asp-action="AddUserToTrip" asp-route-id="@Model.Id" class="btn btn-primary btn-block text-uppercase">Join</a>
+                    <br />
+                    <a href="/">
+                        <input type="submit" value="Back" class="btn btn-secondary" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

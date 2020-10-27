@@ -1,0 +1,54 @@
+﻿@using ShareTripApplication.Web.ViewModels.Trips.Create
+@model CreateTripInputModel
+@{
+
+    ViewData["Title"] = "Create";
+
+}
+<section class="py-5">
+    <div class="text-center">
+        <h1 style="margin: 2%; text-align: center;">Add Trip</h1>
+        <div style="padding: 5%;">
+            <form asp-controller="Trip" asp-action="Create" method="post"
+                  enctype="multipart/form-data">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="StartPoint"></label>
+                    <input id="model" asp-for="StartPoint" class="form-control" />
+                    <span asp-validation-for="StartPoint" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EndPoint"></label>
+                    <input id="model" asp-for="EndPoint" class="form-control" />
+                    <span asp-validation-for="EndPoint" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DepartureTime"></label>
+                    <input id="model" asp-for="DepartureTime" class="form-control" />
+                    <span asp-validation-for="DepartureTime" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImagePath"></label>
+                    <input id="model" asp-for="ImagePath" class="form-control" />
+                    <span asp-validation-for="ImagePath" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Seats"></label>
+                    <input id="model" asp-for="Seats" class="form-control" />
+                    <span asp-validation-for="Seats" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description"></label>
+                    <input id="model" asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary text-uppercase">Create</button>
+            </form>
+
+            <br />
+            <a href="/">
+                <input type="submit" value="Cancel" class="btn btn-secondary" />
+            </a>
+        </div>
+    </div>
+</section>
