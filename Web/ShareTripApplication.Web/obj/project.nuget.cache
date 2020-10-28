@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z6gQBpfBaFoF6tH3/DXJxrC2x8M6H1LrKivQ7wfrKZP+804LtkJDMOrDv5xHfvCYSpwEAnBTtCTtzsw83Vy7zw==",
+  "dgSpecHash": "165MiJR6BFWgkpk2hdWD2e8j6QqzUWp9i0y7NnE8sw4p4gxbjxJv/vYVxzVdkpvKsI6lDnJd3mIRe6h+DwLmKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web\\ShareTripApplication.Web.csproj",
+  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web\\ShareTripApplication.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sveto\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\sveto\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",

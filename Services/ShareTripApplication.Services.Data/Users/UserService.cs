@@ -1,23 +1,30 @@
-﻿using Microsoft.AspNetCore.Identity;
-using ShareTripApplication.Data.Common.Repositories;
-using ShareTripApplication.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ShareTripApplication.Services.Data.Users
+﻿namespace ShareTripApplication.Services.Data.Users
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    using Microsoft.AspNetCore.Identity;
+    using ShareTripApplication.Data.Common.Repositories;
+    using ShareTripApplication.Data.Models;
+    using ShareTripApplication.Services.Mapping;
+
     public class UserService : IUserService
     {
         private readonly IDeletableEntityRepository<ApplicationUser> userRepository;
         private readonly UserManager<ApplicationUser> userManager;
+        private readonly IRepository<UserTrips> userTripsRepository;
 
-        public UserService(IDeletableEntityRepository<ApplicationUser> userRepository, UserManager<ApplicationUser> userManager)
+        public UserService(
+            IDeletableEntityRepository<ApplicationUser> userRepository,
+            UserManager<ApplicationUser> userManager,
+            IRepository<UserTrips> userTripsRepository)
         {
             this.userRepository = userRepository;
             this.userManager = userManager;
+            this.userTripsRepository = userTripsRepository;
         }
 
         public async Task<string> EditAsync(string phoneNumber, string imagePath, string userId)
@@ -51,6 +58,23 @@ namespace ShareTripApplication.Services.Data.Users
             await this.userRepository.SaveChangesAsync();
 
             return user.Id;
+        }
+
+        public IEnumerable<T> GetUsersForCurrentTrip<T>(string tripId)
+        {
+            IQueryable<ApplicationUser> query = Enumerable.Empty<ApplicationUser>().AsQueryable();
+
+            var currentUserTrips = this.userTripsRepository
+                .All()
+                .Where(x => x.TripId == tripId)
+                .ToList();
+
+            query = this.userRepository
+           .All()
+           .Where(x => currentUserTrips.Select(y => y.UserId).Contains(x.Id))
+           .OrderByDescending(x => x.CreatedOn);
+
+            return query.To<T>().ToList();
         }
     }
 }

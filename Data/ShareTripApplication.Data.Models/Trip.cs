@@ -7,7 +7,7 @@
 
     using ShareTripApplication.Data.Common.Models;
 
-    public class Trip : BaseDeletableModel<string>
+    public class Trip : BaseModel<string>
     {
         public Trip()
         {

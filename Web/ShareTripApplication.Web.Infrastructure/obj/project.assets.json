@@ -6874,11 +6874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.Infrastructure\\ShareTripApplication.Web.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web.Infrastructure\\ShareTripApplication.Web.Infrastructure.csproj",
       "projectName": "ShareTripApplication.Web.Infrastructure",
-      "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.Infrastructure\\ShareTripApplication.Web.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web.Infrastructure\\ShareTripApplication.Web.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

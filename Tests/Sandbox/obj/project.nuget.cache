@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7qbre2MdrRjoUvX+/sVPWfZaGt2hpw7xTDdzKII2gg9YaYtJDrgqJhbV9Qxt40ZGn1ZF0USSAU0EFsCR9EVGqQ==",
+  "dgSpecHash": "wbTqlnciXqnwcQHd2NathpzX3RXaldoE4uklAKFOMqKF9BFOHbLGxXc5cFSR9jZAAARXwMSKu8CGfpgQR5U1HA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Tests\\Sandbox\\Sandbox.csproj",
+  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Tests\\Sandbox\\Sandbox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sveto\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\sveto\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",

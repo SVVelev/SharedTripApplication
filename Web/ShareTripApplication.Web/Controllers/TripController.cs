@@ -1,19 +1,22 @@
 ﻿namespace ShareTripApplication.Web.Controllers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
     using ShareTripApplication.Data.Models;
     using ShareTripApplication.Services.Data.Trips;
     using ShareTripApplication.Services.Mapping;
+    using ShareTripApplication.Web.ViewModels.Error;
     using ShareTripApplication.Web.ViewModels.Trips.AllTrips;
     using ShareTripApplication.Web.ViewModels.Trips.Create;
     using ShareTripApplication.Web.ViewModels.Trips.Details;
     using ShareTripApplication.Web.ViewModels.Trips.TripId;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
 
+    [Authorize]
     public class TripController : BaseController
     {
         private readonly ITripService tripService;
@@ -46,7 +49,8 @@
 
             if (trip.Seats == 0)
             {
-                //Error "There is no free seat"
+                string errorMessage = "There is no free seat";
+                return this.RedirectToAction("Error", "Home", new { message = errorMessage });
             }
 
             var tripId = this.tripService.AddUserTrip(userId, trip.Id);
@@ -54,13 +58,21 @@
             return this.RedirectToAction(nameof(this.AllTrips));
         }
 
-        public async Task<IActionResult> AllTrips()
+        public IActionResult UserLeaveTrip(string id)
         {
-            var currentUser = await this.userManager.GetUserAsync(this.User);
+            var userId = this.userManager.GetUserId(this.User);
+            var trip = this.tripService.GetTripById<TripIdViewModel>(id);
 
+            this.tripService.UserLeaveTrip(userId, trip.Id);
+
+            return this.RedirectToAction(nameof(this.AllTrips));
+        }
+
+        public IActionResult AllTrips()
+        {
             var viewModel = new AllTripsViewModel
             {
-                Trips = this.tripService.GetAllTrips<TripsViewModel>(currentUser),
+                Trips = this.tripService.GetAllTrips<TripsViewModel>(),
             };
 
             return this.View(viewModel);

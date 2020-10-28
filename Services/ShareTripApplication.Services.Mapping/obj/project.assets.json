@@ -6916,11 +6916,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj",
+      "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj",
       "projectName": "ShareTripApplication.Services.Mapping",
-      "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj",
+      "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj",
       "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\obj\\",
+      "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Mapping\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

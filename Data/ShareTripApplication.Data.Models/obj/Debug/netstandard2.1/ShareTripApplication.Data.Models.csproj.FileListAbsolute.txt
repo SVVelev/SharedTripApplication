@@ -10,3 +10,15 @@ C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Data\ShareTripApplication.Da
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Data\ShareTripApplication.Data.Models\obj\Debug\netstandard2.1\ShareTripApplication.Data.Models.csproj.CopyComplete
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Data\ShareTripApplication.Data.Models\obj\Debug\netstandard2.1\ShareTripApplication.Data.Models.dll
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Data\ShareTripApplication.Data.Models\obj\Debug\netstandard2.1\ShareTripApplication.Data.Models.pdb
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\bin\Debug\netstandard2.1\ShareTripApplication.Data.Models.deps.json
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\bin\Debug\netstandard2.1\ShareTripApplication.Data.Models.dll
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\bin\Debug\netstandard2.1\ShareTripApplication.Data.Models.pdb
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\bin\Debug\netstandard2.1\ShareTripApplication.Data.Common.dll
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\bin\Debug\netstandard2.1\ShareTripApplication.Data.Common.pdb
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\obj\Debug\netstandard2.1\ShareTripApplication.Data.Models.csprojAssemblyReference.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\obj\Debug\netstandard2.1\ShareTripApplication.Data.Models.AssemblyInfoInputs.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\obj\Debug\netstandard2.1\ShareTripApplication.Data.Models.AssemblyInfo.cs
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\obj\Debug\netstandard2.1\ShareTripApplication.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\obj\Debug\netstandard2.1\ShareTripApplication.Data.Models.csproj.CopyComplete
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\obj\Debug\netstandard2.1\ShareTripApplication.Data.Models.dll
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Models\obj\Debug\netstandard2.1\ShareTripApplication.Data.Models.pdb

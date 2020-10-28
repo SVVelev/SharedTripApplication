@@ -10851,11 +10851,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Tests\\ShareTripApplication.Web.Tests\\ShareTripApplication.Web.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Tests\\ShareTripApplication.Web.Tests\\ShareTripApplication.Web.Tests.csproj",
       "projectName": "ShareTripApplication.Web.Tests",
-      "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Tests\\ShareTripApplication.Web.Tests\\ShareTripApplication.Web.Tests.csproj",
+      "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Tests\\ShareTripApplication.Web.Tests\\ShareTripApplication.Web.Tests.csproj",
       "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Tests\\ShareTripApplication.Web.Tests\\obj\\",
+      "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Tests\\ShareTripApplication.Web.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10874,8 +10874,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web\\ShareTripApplication.Web.csproj": {
-              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web\\ShareTripApplication.Web.csproj"
+            "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web\\ShareTripApplication.Web.csproj": {
+              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web\\ShareTripApplication.Web.csproj"
             }
           }
         }

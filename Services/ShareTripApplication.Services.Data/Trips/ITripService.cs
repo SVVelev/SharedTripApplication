@@ -13,10 +13,10 @@
 
         Task<string> AddUserTrip(string userId, string tripId);
 
-        IEnumerable<T> GetAllTrips<T>(ApplicationUser user);
+        IEnumerable<T> GetAllTrips<T>();
 
         T GetTripById<T>(string id);
 
-        Task<string> UpdateTripSeats(string tripId);
+        Task<string> UserLeaveTrip(string userId, string tripId);
     }
 }

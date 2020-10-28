@@ -1,16 +1,27 @@
 ﻿@using ShareTripApplication.Web.ViewModels.Trips.Details
+@using Microsoft.AspNetCore.Identity;
+@using ShareTripApplication.Data.Models;
+@using ShareTripApplication.Data.Common.Repositories;
+@inject UserManager<ApplicationUser> userManager
+@inject IRepository<UserTrips> userTripsRepository
 @model TripDetailsViewModel
 @{
 
     ViewData["Title"] = "Details";
 
+    var currentUserId = this.userManager.GetUserId(this.User);
+
+    var currentUserTrips = this.userTripsRepository
+                .All()
+                .Where(x => x.TripId == Model.Id && x.UserId == currentUserId)
+                .FirstOrDefault();
 }
 <section class="py-5">
-    <div class="class="text-center"">
+    <div class="class=" text-center"">
         <h1 style="margin: 2%; text-align: center;">Trip</h1>
         <div>
-            <div class="form-group text-center">
-                <img src="@Model.ImagePath" class="img-fluid">
+            <div class="text-center">
+                <img src="@Model.ImagePath" class="rounded" width="500" height="250">
             </div>
             <div class="form-group">
                 <label asp-for="StartPoint"></label>
@@ -34,9 +45,18 @@
             </div>
             <div class="form-group text-center">
                 <div class="button-holder">
-                    <a asp-controller="Trip" asp-action="AddUserToTrip" asp-route-id="@Model.Id" class="btn btn-primary btn-block text-uppercase">Join</a>
+                    @if (currentUserTrips == null)
+                    {
+                        <a asp-controller="Trip" asp-action="AddUserToTrip" asp-route-id="@Model.Id" class="btn btn-success btn-block text-uppercase">Join Trip</a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Trip" asp-action="UserLeaveTrip" asp-route-id="@Model.Id" class="btn btn-primary btn-block text-uppercase">Leave Trip</a>
+                    }
+
                     <br />
-                    <a href="/">
+                    <a asp-controller="User" asp-action="AllUsersCurrentTrip" asp-route-id="@Model.Id" class="btn btn-primary">Joined users</a>
+                    <a href="/Trip/AllTrips">
                         <input type="submit" value="Back" class="btn btn-secondary" />
                     </a>
                 </div>

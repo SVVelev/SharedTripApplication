@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9bZDVuHe7iyiehdWPvIvkGtkHNv7ub0Ok147LE8yzwlIk7d4Oo8gwRvBH+XlC26Lma+gFN6IpoEKjFqeSDL8ZA==",
+  "dgSpecHash": "9cg5Zj9hc1hWW6jp7ZuOhec/5NzCJVXDI0gkp1dMOmmnduRhXF8lVnIxfbmVtmcVFP40VxsHxW0ah0hn0hFobg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj",
+  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Data\\ShareTripApplication.Data.Common\\ShareTripApplication.Data.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sveto\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\sveto\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

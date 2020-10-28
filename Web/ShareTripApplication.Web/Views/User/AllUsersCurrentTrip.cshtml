@@ -1,0 +1,37 @@
+﻿@using ShareTripApplication.Web.ViewModels.Users.AllTrips
+@model UsersCurrentTripViewModel
+@{
+
+    ViewData["Title"] = "Joined Users";
+
+}
+
+<section class="py-5">
+    <div class="text-center">
+        <h1 style="margin: 2%; text-align: center;">Joined Users</h1>
+        <div style="padding: 5%;">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Username</th>
+                        <th scope="col">Phone number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Users)
+                    {
+                        <tr>
+                            <th scope="row">@item.UserName</th>
+                            <td>@item.PhoneNumber</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+        <a href="/Trip/AllTrips">
+            <input type="submit" value="Back" class="btn btn-secondary" />
+        </a>
+    </div>
+</section>
+

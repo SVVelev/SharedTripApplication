@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "//PB+ig+0ITOljaG8JlSXECswrYKwRdeABppdSRB5kyb/8qo3mmQTrkeHo0BsIJ8FJzUWJ+bH5PYIUxr8fIZSw==",
+  "dgSpecHash": "84JwEE74Qk0FCZI8XHvarXMB6lz+rrmu8doRWQcF2XDnx6W0yC2KrN5FOb6I0SFnKkk+6tgt8R+0mGrE77aXBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj",
+  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sveto\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.9\\microsoft.aspnetcore.cryptography.internal.3.1.9.nupkg.sha512",
     "C:\\Users\\sveto\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.9\\microsoft.aspnetcore.cryptography.keyderivation.3.1.9.nupkg.sha512",

@@ -7,3 +7,12 @@ C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Data\ShareTripApplication.Da
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Data\ShareTripApplication.Data.Common\obj\Debug\netstandard2.1\ShareTripApplication.Data.Common.csproj.CoreCompileInputs.cache
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Data\ShareTripApplication.Data.Common\obj\Debug\netstandard2.1\ShareTripApplication.Data.Common.dll
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Data\ShareTripApplication.Data.Common\obj\Debug\netstandard2.1\ShareTripApplication.Data.Common.pdb
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Common\bin\Debug\netstandard2.1\ShareTripApplication.Data.Common.deps.json
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Common\bin\Debug\netstandard2.1\ShareTripApplication.Data.Common.dll
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Common\bin\Debug\netstandard2.1\ShareTripApplication.Data.Common.pdb
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Common\obj\Debug\netstandard2.1\ShareTripApplication.Data.Common.csprojAssemblyReference.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Common\obj\Debug\netstandard2.1\ShareTripApplication.Data.Common.AssemblyInfoInputs.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Common\obj\Debug\netstandard2.1\ShareTripApplication.Data.Common.AssemblyInfo.cs
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Common\obj\Debug\netstandard2.1\ShareTripApplication.Data.Common.csproj.CoreCompileInputs.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Common\obj\Debug\netstandard2.1\ShareTripApplication.Data.Common.dll
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Data\ShareTripApplication.Data.Common\obj\Debug\netstandard2.1\ShareTripApplication.Data.Common.pdb

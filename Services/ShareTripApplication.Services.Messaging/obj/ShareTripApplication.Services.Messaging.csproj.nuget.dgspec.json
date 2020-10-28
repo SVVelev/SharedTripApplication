@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj": {}
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj": {
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj",
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj",
         "projectName": "ShareTripApplication.Services.Messaging",
-        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj",
         "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\obj\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Messaging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

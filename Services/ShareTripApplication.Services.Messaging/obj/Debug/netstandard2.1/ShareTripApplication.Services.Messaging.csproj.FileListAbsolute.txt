@@ -7,3 +7,12 @@ C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplicatio
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services.Messaging\obj\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.csproj.CoreCompileInputs.cache
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services.Messaging\obj\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.dll
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Services\ShareTripApplication.Services.Messaging\obj\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.pdb
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Services\ShareTripApplication.Services.Messaging\bin\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.deps.json
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Services\ShareTripApplication.Services.Messaging\bin\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.dll
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Services\ShareTripApplication.Services.Messaging\bin\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.pdb
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Services\ShareTripApplication.Services.Messaging\obj\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.csprojAssemblyReference.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Services\ShareTripApplication.Services.Messaging\obj\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.AssemblyInfoInputs.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Services\ShareTripApplication.Services.Messaging\obj\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.AssemblyInfo.cs
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Services\ShareTripApplication.Services.Messaging\obj\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Services\ShareTripApplication.Services.Messaging\obj\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.dll
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Services\ShareTripApplication.Services.Messaging\obj\Debug\netstandard2.1\ShareTripApplication.Services.Messaging.pdb

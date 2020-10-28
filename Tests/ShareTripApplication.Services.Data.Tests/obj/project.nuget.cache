@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/peAT+P/jNN5vPp+tGXpeRgfkkLS1jNuBrr/rOX74tqrSQgv3B6ikosNZqij5ln2SXqg1iWZZRY7QrZyEXknMw==",
+  "dgSpecHash": "tdRCLaykksWB3wMalnxgTywX0A7AA9WD20LhgwMC4vbETtc9iMumbx6dArtBz4WJtlhFm8WjQGGTXR6rr3ucUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Tests\\ShareTripApplication.Services.Data.Tests\\ShareTripApplication.Services.Data.Tests.csproj",
+  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Tests\\ShareTripApplication.Services.Data.Tests\\ShareTripApplication.Services.Data.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sveto\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\sveto\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

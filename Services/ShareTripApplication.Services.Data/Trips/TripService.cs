@@ -5,6 +5,7 @@
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
+
     using ShareTripApplication.Data.Common.Repositories;
     using ShareTripApplication.Data.Models;
     using ShareTripApplication.Services.Mapping;
@@ -12,10 +13,10 @@
 
     public class TripService : ITripService
     {
-        private readonly IDeletableEntityRepository<Trip> tripRepository;
+        private readonly IRepository<Trip> tripRepository;
         private readonly IRepository<UserTrips> userTripsRepository;
 
-        public TripService(IDeletableEntityRepository<Trip> tripRepository, IRepository<UserTrips> userTripsRepository)
+        public TripService(IRepository<Trip> tripRepository, IRepository<UserTrips> userTripsRepository)
         {
             this.tripRepository = tripRepository;
             this.userTripsRepository = userTripsRepository;
@@ -46,30 +47,45 @@
                 .Where(x => x.Id == tripId)
                 .FirstOrDefault();
 
-            var updatedTripId = this.UpdateTripSeats(currentTrip.Id);
+            int index = 1;
+            var updatedTripId = this.UpdateTripSeats(currentTrip.Id, index);
 
             var userTrip = new UserTrips
             {
                 UserId = userId,
                 TripId = tripId,
             };
+
             await this.userTripsRepository.AddAsync(userTrip);
             await this.userTripsRepository.SaveChangesAsync();
 
             return currentTrip.Id;
         }
 
-        public IEnumerable<T> GetAllTrips<T>(ApplicationUser user)
+        public async Task<string> UserLeaveTrip(string userId, string tripId)
+        {
+            var currentUserTrips = this.userTripsRepository
+                .All()
+                .Where(x => x.TripId == tripId && x.UserId == userId)
+                .FirstOrDefault();
+
+            int index = -1;
+            var updatedTripId = this.UpdateTripSeats(currentUserTrips.TripId, index);
+
+            this.userTripsRepository.Delete(currentUserTrips);
+            await this.userTripsRepository.SaveChangesAsync();
+
+            return currentUserTrips.TripId;
+        }
+
+        public IEnumerable<T> GetAllTrips<T>()
         {
             IQueryable<Trip> query = Enumerable.Empty<Trip>().AsQueryable();
 
-            if (user != null)
-            {
-                query =
+            query =
                 this.tripRepository
                 .All()
                 .OrderByDescending(x => x.CreatedOn);
-            }
 
             return query.To<T>().ToList();
         }
@@ -85,14 +101,14 @@
             return trip;
         }
 
-        public async Task<string> UpdateTripSeats(string tripId)
+        private async Task<string> UpdateTripSeats(string tripId, int index)
         {
             var currentTrip = this.tripRepository
                 .All()
                 .Where(x => x.Id == tripId)
                 .FirstOrDefault();
 
-            currentTrip.Seats -= 1;
+            currentTrip.Seats -= index;
             this.tripRepository.Update(currentTrip);
             await this.tripRepository.SaveChangesAsync();
 

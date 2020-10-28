@@ -2595,7 +2595,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
           "ShareTripApplication.Data.Common": "1.0.0",
           "ShareTripApplication.Data.Models": "1.0.0",
-          "ShareTripApplication.Services.Mapping": "1.0.0"
+          "ShareTripApplication.Services.Mapping": "1.0.0",
+          "ShareTripApplication.Web.ViewModels": "1.0.0"
         },
         "runtime": {
           "ShareTripApplication.Services.Data.dll": {}

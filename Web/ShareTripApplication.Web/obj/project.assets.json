@@ -9570,11 +9570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web\\ShareTripApplication.Web.csproj",
+      "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web\\ShareTripApplication.Web.csproj",
       "projectName": "ShareTripApplication.Web",
-      "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web\\ShareTripApplication.Web.csproj",
+      "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web\\ShareTripApplication.Web.csproj",
       "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web\\obj\\",
+      "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9593,32 +9593,32 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj"
+            "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj": {
+              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Data\\ShareTripApplication.Data.Models\\ShareTripApplication.Data.Models.csproj"
             },
-            "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data\\ShareTripApplication.Data.csproj": {
-              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Data\\ShareTripApplication.Data\\ShareTripApplication.Data.csproj"
+            "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Data\\ShareTripApplication.Data\\ShareTripApplication.Data.csproj": {
+              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Data\\ShareTripApplication.Data\\ShareTripApplication.Data.csproj"
             },
-            "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Data\\ShareTripApplication.Services.Data.csproj": {
-              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Data\\ShareTripApplication.Services.Data.csproj"
+            "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Data\\ShareTripApplication.Services.Data.csproj": {
+              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Data\\ShareTripApplication.Services.Data.csproj"
             },
-            "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj": {
-              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj"
+            "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj": {
+              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj"
             },
-            "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj": {
-              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj"
+            "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj": {
+              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Messaging\\ShareTripApplication.Services.Messaging.csproj"
             },
-            "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services\\ShareTripApplication.Services.csproj": {
-              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services\\ShareTripApplication.Services.csproj"
+            "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services\\ShareTripApplication.Services.csproj": {
+              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services\\ShareTripApplication.Services.csproj"
             },
-            "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj": {
-              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj"
+            "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj": {
+              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj"
             },
-            "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.Infrastructure\\ShareTripApplication.Web.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.Infrastructure\\ShareTripApplication.Web.Infrastructure.csproj"
+            "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web.Infrastructure\\ShareTripApplication.Web.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web.Infrastructure\\ShareTripApplication.Web.Infrastructure.csproj"
             },
-            "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\ShareTripApplication.Web.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\ShareTripApplication.Web.ViewModels.csproj"
+            "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\ShareTripApplication.Web.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\ShareTripApplication.Web.ViewModels.csproj"
             }
           }
         }

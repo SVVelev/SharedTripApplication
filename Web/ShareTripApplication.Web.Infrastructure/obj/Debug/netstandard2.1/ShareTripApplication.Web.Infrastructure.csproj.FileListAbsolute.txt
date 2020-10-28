@@ -7,3 +7,12 @@ C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Web\ShareTripApplication.Web
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Web\ShareTripApplication.Web.Infrastructure\obj\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Web\ShareTripApplication.Web.Infrastructure\obj\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.dll
 C:\Users\sveto\Desktop\SoftUni\ShareTripApplication\Web\ShareTripApplication.Web.Infrastructure\obj\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.pdb
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Web\ShareTripApplication.Web.Infrastructure\bin\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.deps.json
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Web\ShareTripApplication.Web.Infrastructure\bin\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.dll
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Web\ShareTripApplication.Web.Infrastructure\bin\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.pdb
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Web\ShareTripApplication.Web.Infrastructure\obj\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.csprojAssemblyReference.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Web\ShareTripApplication.Web.Infrastructure\obj\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Web\ShareTripApplication.Web.Infrastructure\obj\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.AssemblyInfo.cs
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Web\ShareTripApplication.Web.Infrastructure\obj\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Web\ShareTripApplication.Web.Infrastructure\obj\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.dll
+C:\Users\sveto\Desktop\SoftUni\SharedTripApplication\Web\ShareTripApplication.Web.Infrastructure\obj\Debug\netstandard2.1\ShareTripApplication.Web.Infrastructure.pdb

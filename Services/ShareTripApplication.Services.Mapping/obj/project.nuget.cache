@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0x4sH7yDf0d38NmKb5w+XREWYXflh+gawvMjtkrbiIC8Zz7ywqPAkISc9tfA901VDTGIQ/D7ZgB8l3d/KEP6mQ==",
+  "dgSpecHash": "MdB4yO4yIuotgDMbHkZkc4X9Jhr+WWwEhlUiuodhFCml5i2dCob0hnTnm/LEqGTUCXA6w836x6eR2ygi+y2glg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj",
+  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Services\\ShareTripApplication.Services.Mapping\\ShareTripApplication.Services.Mapping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sveto\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\sveto\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

@@ -10,5 +10,7 @@ namespace ShareTripApplication.Services.Data.Users
         Task<string> EditAsync(string phoneNumber, string imagePath, string userId);
 
         Task<string> DeleteAsync(string id);
+
+        IEnumerable<T> GetUsersForCurrentTrip<T>(string tripId);
     }
 }

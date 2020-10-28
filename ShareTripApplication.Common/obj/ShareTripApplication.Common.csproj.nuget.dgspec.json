@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj": {}
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj": {
+    "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj",
+        "projectUniqueName": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj",
         "projectName": "ShareTripApplication.Common",
-        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj",
+        "projectPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\ShareTripApplication.Common\\ShareTripApplication.Common.csproj",
         "packagesPath": "C:\\Users\\sveto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\ShareTripApplication.Common\\obj\\",
+        "outputPath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\ShareTripApplication.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

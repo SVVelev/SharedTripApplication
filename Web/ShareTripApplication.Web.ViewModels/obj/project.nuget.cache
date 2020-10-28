@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lleuhSaU8klseGfIY2xP9L4wwXU/VPlURfZUye0NvHkSTDtLwi1PxctNdUx6H4Hyboc8zX0ehWNVVvxmUSc+PQ==",
+  "dgSpecHash": "L71fyHy0Te5k7UjlyPlR5zMMKkGQbUJTg/rApf2JEEaMHs+vxQ6WXt6gFvqnVIBHmarwX28SdCD9Pw+m+5PhcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\ShareTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\ShareTripApplication.Web.ViewModels.csproj",
+  "projectFilePath": "C:\\Users\\sveto\\Desktop\\SoftUni\\SharedTripApplication\\Web\\ShareTripApplication.Web.ViewModels\\ShareTripApplication.Web.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sveto\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\sveto\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.9\\microsoft.aspnetcore.cryptography.internal.3.1.9.nupkg.sha512",
